@@ -1,0 +1,6 @@
+resource "aws_s3_bucket" "finance" {
+  bucket = "finanace-210920201144141414141414-test"
+  tags    = {
+    Description = "Finance and Payroll"
+  }
+}
